@@ -6,46 +6,5 @@
 
     </head>
     
-
-   <img src="/images/Pic05Mid.jpg" 
-     alt="Registration banner here" class="center" 
-     style="width:50%"> 
-    <br>    
-    <p>INFORMATION ABOUT THE CONCERT AND REGISTRATION PROCESS.
-     POSSIBLY IN A BOX OF SOME SORT</p>  
-    <br>
-    
-        <title> My first form!</title>
-    
-<form name="myForm" action="registration.php" onsubmit="return validateForm()" method="post">
-
- First Name: <input type="text" name="FirstName">
-<span class="error">* <?php echo $fnameErr;?></span>
-<br><br>
-
-Last Name: <input type="text" name="LastName">
-<span class="error">* <?php echo $lnameErr;?></span>
-<br><br>
-
-Email Address: <input type="text" name="Email">
-<span class="error">* <?php echo $emailErr;?></span>
-<br><br>
-    <input type="submit" value="Submit">
-</form>
-
-	
-    
-    
-    
-    
-    
-    
-    
-    <img src="/images/Pic01Main.jpg" 
-         alt="SNHU logo" class="center" 
-     style="width:1000px;height:300px;">
-    
-    
-    
     </body>
     </html>
